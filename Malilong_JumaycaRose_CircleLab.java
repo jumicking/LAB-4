@@ -21,7 +21,7 @@ public class Malilong_JumaycaRose_CircleLab {
             int convert2 = 0;
 
             // TODO code application logic here
-            int opt = JOptionPane.showConfirmDialog(null, "Welcome to circle calculator", "Input YES to continue", JOptionPane.YES_NO_OPTION);
+            int opt = JOptionPane.showConfirmDialog(null, "Welcome to circle calculator", "Click YES to continue", JOptionPane.YES_NO_OPTION);
             if (opt == JOptionPane.YES_OPTION) {
                 String code = JOptionPane.showInputDialog("Select a specific method"
                         + "\n Calculation                           \t code"
