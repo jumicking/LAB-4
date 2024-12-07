@@ -42,7 +42,7 @@ public class Malilong_JumaycaRose_CircleLab {
                     case "3":
                         response = JOptionPane.showInputDialog("Radius:");
                         convert = Integer.parseInt(response);
-                        JOptionPane.showMessageDialog(null, "Diameter of Cirle = " + cir.diameter(convert));
+                        JOptionPane.showMessageDialog(null, "Diameter of Circle = " + cir.diameter(convert));
                         break;
 
                     default:
