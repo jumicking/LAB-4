@@ -1,26 +1,42 @@
-
 package malilong_jumayca.rose_circlelab;
 
 class Circle {
-  
-    public double area(double rad) {
-        double area = 0.0;
-        double getarea = Math.PI * Math.pow(rad, 2);
-        area += getarea;
-        return area;
+
+    // Attribute
+    private double radius;
+
+    // Default Constructor
+    public Circle() {
+        this.radius = 1.0; // Default radius
     }
 
-    public double circumfer(double radius) {
-        double circum = 0;
-        double res = 2 * Math.PI * radius;
-        circum += res;
-        return circum;
+    // Parameterized Constructor
+    public Circle(double radius) {
+        this.radius = radius;
     }
 
-    public double diameter(double radius) {
-        double diameter = 00.00;
-        double getdiameter = 2 * radius;
-        diameter += getdiameter;
-        return diameter;
+    // Method to calculate area
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+
+    // Method to calculate circumference
+    public double getCircumference() {
+        return 2 * Math.PI * radius;
+    }
+
+    // Method to calculate diameter
+    public double getDiameter() {
+        return 2 * radius;
+    }
+
+    // Getter for radius
+    public double getRadius() {
+        return radius;
+    }
+
+    // Setter for radius 
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 }
